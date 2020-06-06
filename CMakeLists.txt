@@ -9,6 +9,7 @@ set(SDLSAMPLE ${CMAKE_SOURCE_DIR})
 add_subdirectory(src)
 add_subdirectory(sandbox)
 add_subdirectory(third-party/imgui)
+add_subdirectory(third-party/glad)
 #add_subdirectory(third-party/libpng)
 
 if (MSVC)
